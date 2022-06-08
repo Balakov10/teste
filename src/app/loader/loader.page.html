@@ -1,0 +1,16 @@
+<ion-content>
+
+  <div class="flex-center">
+    <swiper [config]="swiperConfig">
+      <ng-template *ngFor="let temp of weatherTemp" swiperSlide>
+
+        <app-temp-card [weatherDay]="temp" [city]="weatherCity"></app-temp-card>
+
+      </ng-template>
+
+    </swiper>
+
+  </div>
+
+
+</ion-content>

@@ -1,0 +1,10 @@
+{
+  "name": "temp",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}
